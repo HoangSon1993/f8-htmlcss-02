@@ -45,6 +45,23 @@ a {
     opacity: 0.9;
 }
 
+.heading {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -1.16px;
+}
+
+.heading.lv1{
+  font-size: 5.8rem;
+  line-height: 1.17; /* 117.241% */
+}
+
+.heading.lv2{
+  font-size: 3.8rem;
+  line-height: 1.26;
+}
+
 /* Header */
 .header {
   background-color: #fffcf4;
@@ -189,15 +206,6 @@ a {
   padding: 64px 0 0 135px;
 }
 
-.hero .heading {
-  color: #171100;
-  font-family: var(--font-heading);
-  font-size: 5.8rem;
-  font-weight: 700;
-  line-height: 1.17; /* 117.241% */
-  letter-spacing: -1.16px;
-}
-
 .hero .desc {
   margin-top: 22px;
   color: #5f5b53;
@@ -261,4 +269,50 @@ a {
   font-size: 4.4rem;
   line-height: 1.23;
   color: #171100;
+}
+
+
+/* popular */
+.popular{
+  padding: 65px 0;
+  margin-top: 135px;
+}
+
+.popular-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5F5B53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.popular .control{
+  display: flex;
+  gap: 18px;
+}
+
+.popular-top .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.popular-top .control-btn:hover{
+  color: #fff;
+  background-color: var(--primary-color);
+  transition: 0.7s;
 }
