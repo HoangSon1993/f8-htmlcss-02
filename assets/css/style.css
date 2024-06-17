@@ -491,7 +491,8 @@ a {
 
 /* Feature */
 .features {
-  padding-top: 135px;
+  margin-top: 135px;
+  padding: 65px 0;
 }
 .features .body {
   display: flex;
@@ -536,4 +537,22 @@ a {
   min-width: 137px;
   color: #ffffff;
   background-color: var(--primary-color);
+}
+
+/* feature-2 */
+.features-2nd {
+  margin-top: 70px;
+}
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+
+.features-2nd .content {
+  width: 49%;
+}
+
+.features-2nd .images img {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
 }
